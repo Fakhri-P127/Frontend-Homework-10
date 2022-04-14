@@ -1,19 +1,12 @@
-* {
-  /* margin: 0;
-  padding: 0; */
-  /* box-sizing: border-box; */
-}
-
 body {
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
   font-size: 1.3rem;
 }
-.card {
+
+.custom-card-transition {
   transition: 0.5s all;
 }
-
 @media (min-width: 992px) {
-  .card:hover {
+  .custom-card-transition:hover {
     transform: scale(1.05);
   }
 }
